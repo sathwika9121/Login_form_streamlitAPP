@@ -62,7 +62,6 @@ DB_USER = "root"
 DB_PASSWORD = "root"
 DB_NAME = "Student_db"
 DB_TABLE = "users"
-
 # Initialize session state
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
